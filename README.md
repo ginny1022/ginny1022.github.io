@@ -1,1 +1,0 @@
-# ginny1022.github.io

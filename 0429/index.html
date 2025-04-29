@@ -16,7 +16,7 @@
     <h1 class="text-center">bootstrap元件</h1>
     <!--表格-->
     <h2 class="text-center">表格</h2>
-    <div clas="container">
+    <div clas="container text-center">
         <table class="table">
             <thead>
                 <tr class="table-secondary">
@@ -57,11 +57,72 @@
 
     <!--圖表-->
     <h2 class="text-center">圖表</h2>
-    <div class="container">
-        <figure class="figure">
+    <div class="container text-center">
+        <figure class="figure"></figure>
             <img src="img/logo.png" width="500" class="figure-img img-fluid rounded" alt="...">
             <figcaption class="figure-caption">A picture I drew.</figcaption>
-         </figure>
+        </figure>
+    </div>
+
+    <!--手風琴-->
+    <h2 class="text-center">手風琴</h2>
+    <div class="container">
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  手
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>從前從前有一雙手</strong> <br>手牽著手走在路上，突然有一隻腳出現了，然後就變成了三隻腳。<br>這時候又出現了一隻腳，然後就變成了四隻腳。<br>最後又出現了一隻腳，然後就變成了五隻腳。<br>這時候又出現了一隻腳，然後就變成了六隻腳。<br>這時候又出現了一隻腳，然後就變成了七隻腳。<br>這時候又出現了一隻腳，然後就變成了八隻腳。<br>這時候又出現了一隻腳，然後就變成了九隻腳。<br>這時候又出現了一隻腳，然後就變成了十隻腳。
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  風
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>有一陣風吹來了</strong> <br>微風吹到微風，形成了小風。<br>小風吹到小風，形成了中風。<br>中風吹到中風，形成了大風。<br>大風吹到大風，形成了颱風。
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  琴
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>當手巧遇風又巧遇琴</strong> <br>後來颱風吹了一下手，手就變成了風。<br>後來風又吹了一下琴，琴就變成了手。<br>後來手又吹了一下風，風就變成了琴。<br>後來琴又吹了一下手，手就變成了風。<br>後來風又吹了一下琴，琴就變成了手。<br>後來手又吹了一下風，風就變成了琴。<br>後來琴又吹了一下手，手就變成了風。<br>後來風又吹了一下琴，琴就變成了手。
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+
+    <!--收合-->
+    <h2 class="text-center">收合</h2>
+    <div class="container text-center">
+        <p class="d-inline-flex gap-1">
+            <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+              Link with href
+            </a>
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+              Button with data-bs-target
+            </button>
+          </p>
+          <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+              Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+            </div>
+          </div>
     </div>
 </body>
 
